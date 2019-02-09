@@ -9,7 +9,10 @@ export default {
   props: ['name', 'headers', 'baseUrl'],
 
   created() {
-    setConfig(this.name, { headers: this.headers, baseURL: this.baseUrl });
-  },
+    setConfig(this.name, {
+      headers: this.headers,
+      baseURL: this.baseUrl
+    });
+  }
 };
 </script>

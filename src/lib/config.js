@@ -1,5 +1,5 @@
 const config = {
-  default: {},
+  default: {}
 };
 
 export function getConfig(name = 'default') {
