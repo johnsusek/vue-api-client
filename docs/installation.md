@@ -8,7 +8,7 @@ nav_order: 2
 npm install vue-api-client
 ```
 
-```es6
+```vue
 import VueApiClient from 'vue-api-client';
 Vue.use(VueApiClient);
 ```
